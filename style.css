@@ -780,7 +780,7 @@ ul.tabs-nav .tab-nav.active {
 --------------------------------*/
 .our__services {
     padding: 100px 0;
-    background: url(images/departments-bg.jpg) no-repeat;
+    background: url(images/services-bg.jpg) no-repeat;
     background-size: cover;
 }
 
@@ -792,7 +792,7 @@ ul.tabs-nav .tab-nav.active {
     background: -o-linear-gradient(180deg, rgba(50,200,250,1) 0%, rgba(88,125,228,1) 100%);
     background: -ms-linear-gradient(180deg, rgba(50,200,250,1) 0%, rgba(88,125,228,1) 100%); 
     background: -ms-linear-gradient(180deg, #51924B 0%, #E8AE4A 100%); */
-    background: linear-gradient(270deg, #51924B 0%, #E8AE4A 100%);
+    background: linear-gradient(270deg, #51924B 0%, rgba(67, 136, 61, 0.644) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#18a3eb', endColorstr='#18a3eb',GradientType=1 ); 
 }
 
