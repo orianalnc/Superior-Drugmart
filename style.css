@@ -67,6 +67,7 @@ a:hover, a:active {
     .site-branding {
         width: auto;
     }
+    
 }
 
 /*
@@ -815,6 +816,9 @@ ul.tabs-nav .tab-nav.active {
     .our__services__wrap {
         padding-right: 30px;
         padding-left: 30px;
+    }
+    .header__navigation ul li a{
+        color: #0c6d03;
     }
 }
 
