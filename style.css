@@ -1001,6 +1001,9 @@ ul.tabs-nav .tab-nav.active {
     .swiper-drg__pagination__wrap {
         bottom: 30px;
     }
+    .tab-content .button {
+        padding: 12px 20px 10px;
+    }
 }
 
 .testimonial__slider .drg__pagination-bullet {
@@ -1611,3 +1614,7 @@ ul.tabs-nav .tab-nav.active {
 .footer__links ul li a {
     color: #828282;
 }
+
+/*  ul.tabs-nav .tab-nav #tab_3{
+    background-image: url("images/news-1.png") !important;
+} */
