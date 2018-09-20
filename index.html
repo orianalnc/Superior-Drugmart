@@ -156,20 +156,20 @@
                     <div class="appointment__box">
                         <h2 class="d-flex align-items-center">Make an Appointment</h2>
 
-                        <form class="d-flex flex-wrap justify-content-between">
-                            <select class="select__service">
+                        <form action="php/consulting.php" method="POST" class="d-flex flex-wrap justify-content-between">
+                            <select name="service" class="select__service">
                                 <option value="value1">Select Service</option>
                                 <option value="value2">Select Service 1</option>
                                 <option value="value3">Select Service 2</option>
                             </select>
 
-                            <input type="text" placeholder="Name" required>
+                            <input type="text" name="name" placeholder="Name" required>
 
-                            <input type="text" placeholder="Email" required>
+                            <input type="text" name="email" placeholder="Email" required>
 
-                            <input type="number" placeholder="Phone No" required>
+                            <input type="number" name="phone" placeholder="Phone No" required>
 
-                            <input class="button gradient__bg" type="submit" value="Boom Appoitnment">
+                            <input class="button gradient__bg" type="submit" value="Book Appoitnment">
                         </form>
                     </div>
 
