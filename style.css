@@ -209,6 +209,7 @@ a:hover, a:active {
     .header__navigation ul li a {
         padding: 30px 0;
     }
+    
 }
 
 .header__navigation ul li a:hover,
@@ -832,6 +833,20 @@ ul.tabs-nav .tab-nav.active {
     .header__navigation ul li a{
         color: #0c6d03;
     }
+    .no-respon{
+        display: none !important;
+    }
+    .med-history {
+        padding: 30px 0 !important;
+    }
+    .faq-stuff {
+        padding: 30px 0 !important;
+    
+    }
+    ul.tabs-nav .tab-nav {
+        width: 100%;
+    }
+
 }
 
 .our__services__wrap h2 {
