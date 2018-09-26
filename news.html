@@ -72,8 +72,11 @@
                             <li>New prescriptions</li>
                         </ul>
                     </div>
-                    <p>Starting a new medication? We are here to help. Our Superior pharmacy staff provides free medication counseling and consultations to all of our customers. 
-                        To get your new medication start by filling out the form below and we will respond in the order we receive your request. If you would like to talk to one of our pharmacists call us at 718 445-8450. We accept all payment methods will work with you and your insurance provider to get the maximum coverage possible.</p>
+                    <p>Starting a new medication? We are here to help. Our Superior pharmacy staff provides free medication
+                        counseling and consultations to all of our customers. To get your new medication start by filling
+                        out the form below and we will respond in the order we receive your request. If you would like to
+                        talk to one of our pharmacists call us at 718 445-8450. We accept all payment methods will work with
+                        you and your insurance provider to get the maximum coverage possible.</p>
                 </div>
             </div>
         </div>
@@ -132,13 +135,8 @@
                                         <textarea class="form-control" name="message" id="message" cols="30" rows="5">Message</textarea>
                                     </div>
                                 </div>
-                                <div class="form-group">
-                                    <div class="form-check">
-                                        <input class="form-check-input" name="terms" type="checkbox" value="" id="check" required>
-                                        <label class="form-check-label" for="check">
-                                            Agree to terms and conditions
-                                        </label>
-                                    </div>
+                                <div class="form-group mt-3">
+                                        <div class="g-recaptcha" data-sitekey="6LezVnIUAAAAAKQ29l8dpx8yQ3Te5gnWJT6I_1Hu"></div>
                                 </div>
                                 <button class="button gradient__bg" type="submit">Contact our pharmacist</button>
                             </form>
@@ -153,7 +151,7 @@
 
                         <ul class="p-0 m-0">
                             <li>Monday - Friday
-                                <span>9:00 - 17:00</span>
+                                <span>9:00 - 5:00</span>
                             </li>
                             <li>Saturday - Sunday
                                 <span>Closed</span>
@@ -168,40 +166,32 @@
                                 <img src="images/emergency-call.png"> +1 718-445-8450</a>
                         </div>
 
-                        <p>Lorem ipsum dolor sit amet, cons ectetur adipiscing elit. Donec males uada lorem maximus mauris sceler
-                            isque, at rutrum nulla.</p>
+                        <p>We want to hear from you. Contact us with any questions, comments and concerns related to your pharmacy
+                                needs. Our pharmacists are available by phone, fax and email or walk ins are welcome.</p>
+                        
                     </div>
                     <div class="opening__hours" style="margin-top: 40px !important">
                         <h2 class="d-flex align-items-center"> Other Services</h2>
 
                         <ul class="p-0 m-0">
                             <li>
-                               <a href="transfer.html"><span>Transfer prescriptions</span></a> 
+                                <a href="transfer.html">
+                                    <span>Transfer prescriptions</span>
+                                </a>
                             </li>
                             <li>
-                               <a href="refill.html"><span>Refill prescriptions</span></a> 
+                                <a href="refill.html">
+                                    <span>Refill prescriptions</span>
+                                </a>
                             </li>
-                            
+
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="subscribe__banner">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-8 offset-lg-2">
-                    <h2>Subscribe to our newsletter</h2>
 
-                    <form>
-                        <input type="email" placeholder="E-mail address">
-                        <input class="button gradient__bg" type="submit" value="Subscribe">
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
     <footer class="footer">
         <div class="footer__widgets">
             <div class="container">
@@ -213,20 +203,28 @@
                                     <img class="logo" src="images/logo.png" alt="">
                                 </a>
                             </h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris
-                                scelerisque, at rutrum nulla dictum. Ut ac ligula sapien.</p>
+                            <p>
+                                For ease and peace of mind we accept insurance as well as other payment methods for all medicine and medical services offered.
+                            </p>
                             <p class="copyright">Copyright &copy;
-                                <script>document.write(new Date().getFullYear());</script> All rights reserved | <a href="terms.html"> Privacy Policy.</a></p> 
+                                <script>document.write(new Date().getFullYear());</script> All rights reserved |
+                                <a href="terms.html"> Privacy Policy.</a>
+                            </p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 mt-5 mt-md-0">
                         <div class="footer__contact">
                             <h2>Contact</h2>
                             <ul class="p-0 m-0">
-                                <li style="display: inline-flex;"><span>Address:</span>   <div class="col-md-12"> 60-10A Kissena Blvd, <br> Flushing, NY 11355 </div>   
-                                  </li>
-                                <li><span>Phone:</span>+1 718-445-8450</li>
-                                <li><span>Email:</span>info@superiordrugmartpharmacy.com</li>
+                                <li style="display: inline-flex;">
+                                    <span>Address:</span>
+                                    <div class="col-md-12"> 60-10A Kissena Blvd,
+                                        <br> Flushing, NY 11355 </div>
+                                </li>
+                                <li>
+                                    <span>Phone:</span>+1 718-445-8450</li>
+                                <li>
+                                    <span>Email:</span>info@superiordrugmartpharmacy.com</li>
                             </ul>
                         </div>
                     </div>
@@ -266,6 +264,7 @@
     <script type='text/javascript' src='js/jquery.countTo.min.js'></script>
     <script type='text/javascript' src='js/jquery.barfiller.js'></script>
     <script type='text/javascript' src='js/main.js'></script>
+    <script src='https://www.google.com/recaptcha/api.js?hl=en'></script>
 </body>
 
 </html>

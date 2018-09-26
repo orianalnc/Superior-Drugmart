@@ -1,5 +1,5 @@
 <?php
-$destino = "info@superiorpharmarx.com";
+$destino = "info@qubitmarketing.com";
 $firs = $_POST["firs-name"];
 $last = $_POST["last-name"];
 $mail = $_POST["email"];
@@ -10,7 +10,7 @@ $terms = $_POST["terms"];
 
 $content = "Firs Name: " . $firs . "\nLast Name: " . $last . "\nEmail: " . $mail . "\nPhone: " . $phone . "\nRx Number: " . $rx . "\Message: " . $message . "\nTerms: " . $terms;
 
-mail($destino,"Refill Prescriptions Superior Pharmacy", $content);
+mail($destino,"Refill Prescriptions - Superior Drugmart  Pharmacy", $content);
 header("Location:index.html");
 
 ?>

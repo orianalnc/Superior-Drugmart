@@ -168,7 +168,7 @@ a:hover, a:active {
 /* Logo */
 
 .logo{
-    width: 200px;
+    width: 250px;
 }
 
 /*
@@ -1633,3 +1633,110 @@ ul.tabs-nav .tab-nav.active {
 /*  ul.tabs-nav .tab-nav #tab_3{
     background-image: url("images/news-1.png") !important;
 } */
+
+
+
+/*
+# Our Departments
+--------------------------------*/
+.other__services {
+    padding: 100px 0;
+    background-color: #f5f5f5;
+ 
+}
+
+.other__services__wrap {
+    padding: 60px 80px 80px;
+    background: -moz-linear-gradient(180deg, #51924B 0%, rgba(67, 136, 61, 0.644) 100%); 
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #51924B), color-stop(100%, rgba(67, 136, 61, 0.644))); 
+    background: -webkit-linear-gradient(180deg, #51924B 0%, rgba(67, 136, 61, 0.644) 100%);
+    background: -o-linear-gradient(180deg,#51924B 0%, rgba(67, 136, 61, 0.644) 100%);
+    background: -ms-linear-gradient(180deg,#51924B 0%, rgba(67, 136, 61, 0.644) 100%); 
+    background: -ms-linear-gradient(180deg, #51924B 0%, rgba(67, 136, 61, 0.644) 100%);
+    background: linear-gradient(270deg, #51924B 0%, rgba(67, 136, 61, 0.644) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#18a3eb', endColorstr='#18a3eb',GradientType=1 ); 
+
+/*     linear-gradient(270deg, #51924B 0%, #0c6d03 100%) */
+}
+
+@media screen and (max-width: 768px){
+    .other__services__wrap {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .header__navigation ul li a{
+        color: #0c6d03;
+    }
+    .no-respon{
+        display: none !important;
+    }
+    .med-history {
+        padding: 30px 0 !important;
+    }
+    .faq-stuff {
+        padding: 30px 0 !important;
+    
+    }
+    ul.tabs-nav .tab-nav {
+        width: 100%;
+    }
+
+}
+
+.other__services__wrap h2 {
+    margin-bottom: 80px;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+}
+
+.other__services-cont {
+    margin-bottom: 64px;
+}
+
+.other__services-cont .drg__header {
+    min-height: 48px;
+}
+
+.other_services-cont .drg__header img {
+    margin-right: 16px;
+}
+
+.other__services-cont h3 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.other__services-cont .drg__content {
+    margin-top: 16px;
+}
+
+.other__services-cont .drg__content p {
+    font-size: 14px;
+    color: #fff;
+}
+
+.other__services-cont .drg__footer a {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.responsive-img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.other__services a:hover {
+    text-decoration: none;
+    color: #CC2128;
+}
+
+.tittle{
+    font-size: 2em;
+}
