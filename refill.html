@@ -15,6 +15,8 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Styles -->
     <link rel="stylesheet" href="style.css">
+       <!-- Api Recaptcha -->
+       <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 <body class="single-page blog-page">
@@ -96,11 +98,11 @@
                                 <div class="form-row">
                                     <div class="col-md-6 mb-6">
                                         <label for="firs-name">First name</label>
-                                        <input type="text" class="form-control" name="firs-name" id="firs-name" placeholder="First name" value="John" required>
+                                        <input type="text" class="form-control" name="firs-name" id="firs-name" value="John" required>
                                     </div>
                                     <div class="col-md-6 mb-6">
                                         <label for="last-name">Last name</label>
-                                        <input type="text" class="form-control" name="last-name" id="last-name" placeholder="Last name" value="Doe" required>
+                                        <input type="text" class="form-control" name="last-name" id="last-name" value="Doe" required>
                                     </div>
                                     <div class="col-md-12 mb-12">
                                         <label for="email">Email</label>
@@ -108,7 +110,7 @@
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text" ng-mouseleave="email" id="email">@</span>
                                             </div>
-                                            <input type="text" class="form-control" id="validationDefaultUsername" placeholder="johnd@dominio.com" aria-describedby="inputGroupPrepend2"
+                                            <input type="text" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2"
                                                 required>
                                         </div>
                                     </div>
@@ -118,11 +120,11 @@
                                 <div class="form-row">
                                     <div class="col-md-12 mb-12">
                                         <label for="phone">Phone</label>
-                                        <input type="text" class="form-control" name="phone" id="phone" placeholder="+1 000 0000 0000" required>
+                                        <input type="text" class="form-control" name="phone" id="phone" required>
                                     </div>
                                     <div class="col-md-12 mb-12">
                                         <label for="rx-num">Rx/Number</label>
-                                        <input type="text" class="form-control" name="rx-num" id="rx-num" placeholder="#####" required>
+                                        <input type="text" class="form-control" name="rx-num" id="rx-num"  required>
                                     </div>
                                     <div class="col-md-12 mb-12">
                                         <label for="message">Message</label>
@@ -131,7 +133,7 @@
                                 </div>
                                 
                                 <div class="form-group mt-3">
-                                        <div class="g-recaptcha" data-sitekey="6LezVnIUAAAAAKQ29l8dpx8yQ3Te5gnWJT6I_1Hu"></div>
+                                    <div class="g-recaptcha" data-sitekey="6Lcld3IUAAAAAIXG7XVUa93HVXub5YUMQVxLxYFV"></div>
                                 </div>
                                 <button class="button gradient__bg" type="submit">Contact our pharmacist</button>
                             </form>
@@ -260,7 +262,6 @@
     <script type='text/javascript' src='js/jquery.countTo.min.js'></script>
     <script type='text/javascript' src='js/jquery.barfiller.js'></script>
     <script type='text/javascript' src='js/main.js'></script>
-    <script src='https://www.google.com/recaptcha/api.js?hl=en'></script>
 </body>
 
 </html>

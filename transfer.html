@@ -15,6 +15,8 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Styles -->
     <link rel="stylesheet" href="style.css">
+    <!-- Api Recaptcha -->
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 <body class="single-page blog-page">
@@ -94,11 +96,11 @@
                                 <div class="form-row">
                                     <div class="col-md-6 mb-6">
                                         <label for="firs-name">First name</label>
-                                        <input type="text" class="form-control" name="firs-name" id="firs-name" placeholder="First name" value="John" required>
+                                        <input type="text" class="form-control" name="firs-name" id="firs-name"  value="John" required>
                                     </div>
                                     <div class="col-md-6 mb-6">
                                         <label for="last-name">Last name</label>
-                                        <input type="text" class="form-control" name="last-name" id="last-name" placeholder="Last name" value="Doe" required>
+                                        <input type="text" class="form-control" name="last-name" id="last-name"  value="Doe" required>
                                     </div>
                                     <div class="col-md-12 mb-12">
                                         <label for="email">Email</label>
@@ -106,7 +108,7 @@
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text" id="email">@</span>
                                             </div>
-                                            <input type="text" class="form-control" name="email" id="validationDefaultUsername" placeholder="johnd@dominio.com" aria-describedby="inputGroupPrepend2"
+                                            <input type="text" class="form-control" name="email" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2"
                                                 required>
                                         </div>
                                     </div>
@@ -114,29 +116,29 @@
                                 <div class="form-row">
                                     <div class="col-md-12 mb-12">
                                         <label for="phone">Phone</label>
-                                        <input type="text" class="form-control" name="phone" id="phone" placeholder="+1 000 0000 0000" required>
+                                        <input type="text" class="form-control" name="phone" id="phone"  required>
                                     </div>
                                     <div class="col-md-12 mb-12">
                                         <label for="pharmacy-name">Pharmacy Name</label>
-                                        <input type="text" class="form-control" name="pharmacy-name" id="pharmacy-name" placeholder="Tee Pharmacy" required>
+                                        <input type="text" class="form-control" name="pharmacy-name" id="pharmacy-name"  required>
                                     </div>
                                     <div class="col-md-12 mb-12">
                                         <label for="pharmacy-phone">Pharmacy Phone</label>
-                                        <input type="text" class="form-control" name="pharmacy-phone" id="pharmacy-phone" placeholder="+1 000 0000 0000" required>
+                                        <input type="text" class="form-control" name="pharmacy-phone" id="pharmacy-phone"  required>
                                     </div>
                                 </div>
                                 <div class="form-row">
                                     <div class="col-md-12 mb-12">
                                         <label for="rx-num">Rx/Number</label>
-                                        <input type="text" class="form-control" name="rx-num" id="rx-num" placeholder="Alergy" required>
+                                        <input type="text" class="form-control" name="rx-num" id="rx-num"  required>
                                     </div>
                                     <div class="col-md-12 mb-12">
                                         <label for="dr-name">Dr. Name</label>
-                                        <input type="text" class="form-control" name="dr-name" id="dr-name" placeholder="John Doe" required>
+                                        <input type="text" class="form-control" name="dr-name" id="dr-name"  required>
                                     </div>
                                     <div class="col-md-12 mb-12">
                                         <label for="dr-phone">Dr. Phone</label>
-                                        <input type="text" class="form-control" name="dr-phone" id="dr-phone" placeholder="+1 000 0000 0000" required>
+                                        <input type="text" class="form-control" name="dr-phone" id="dr-phone"  required>
                                     </div>
 
 
@@ -144,7 +146,7 @@
                                 <div class="form-row">
                                     <div class="col-md-12 mb-12">
                                         <label for="medication">Medication</label>
-                                        <input type="text" class="form-control" name="medication" id="medication" placeholder="Alergy" required>
+                                        <input type="text" class="form-control" name="medication" id="medication"  required>
                                     </div>
                                     <div class="col-md-12 mb-12">
                                         <label for="message">Message</label>
@@ -152,7 +154,7 @@
                                     </div>
                                 </div>
                                 <div class="form-group mt-3">
-                                        <div class="g-recaptcha" data-sitekey="6LezVnIUAAAAAKQ29l8dpx8yQ3Te5gnWJT6I_1Hu"></div>
+                                    <div class="g-recaptcha" data-sitekey="6Lcld3IUAAAAAIXG7XVUa93HVXub5YUMQVxLxYFV"></div>
                                 </div>
                                 <button class="button gradient__bg" type="submit">Contact our pharmacist</button>
                             </form>
@@ -279,7 +281,6 @@
     <script type='text/javascript' src='js/jquery.countTo.min.js'></script>
     <script type='text/javascript' src='js/jquery.barfiller.js'></script>
     <script type='text/javascript' src='js/main.js'></script>
-    <script src='https://www.google.com/recaptcha/api.js?hl=en'></script>
 </body>
 
 </html>

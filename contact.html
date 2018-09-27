@@ -19,6 +19,12 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="style.css">
+    <style>
+        #map {
+          height: 400px;
+        }
+        </style>
+       
 </head>
 
 <body class="single-page">
@@ -202,23 +208,12 @@
         <div class="row">
             <div class="col-12">
                 <div class="contact-page-map">
-                    <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=university of san francisco&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <div id="map"></div>
                 </div>
                 <!-- map -->
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
 
 
     <footer class="footer">
@@ -255,7 +250,7 @@
                                 <li>
                                     <span>Phone:</span>+1 718-445-8450</li>
                                 <li>
-                                    <span>Email:</span>info@superiordrugmartpharmacy.com</li>
+                                    <span>Email:</span>info@superiordrugmart.com</li>
                             </ul>
                         </div>
                     </div>
@@ -288,6 +283,24 @@
             </div>
         </div>
     </footer>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDu9N6yN1ulOPh9O3VL5pz5bgTRWPDqNQ">
+</script>
+
+<script>
+    function initMap() {
+        var superior = {lat: 40.39805, lng: -73.815153};
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 20,
+            center: superior
+        });
+        var marker = new google.maps.Marker({
+            position: superior,
+            map: map
+        });
+    }
+</script>
+    
 
     <script type='text/javascript' src='js/jquery.js'></script>
     <script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
