@@ -199,6 +199,7 @@
         </form>
     </div>
     <!-- contact-form -->
+   
 
     <div class="container">
         <div class="row">
@@ -206,7 +207,7 @@
                 <div class="contact-page-map">
                     <div id="map"></div>
                 </div>
-                <!-- map -->
+               
             </div>
         </div>
     </div>
@@ -279,23 +280,27 @@
             </div>
         </div>
     </footer>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDu9N6yN1ulOPh9O3VL5pz5bgTRWPDqNQ">
+  
+    <script>
+        // Initialize and add the map
+        function initMap() {
+            // The location of Uluru
+            var uluru = { lat: 40.740041, lng: -73.815294 };
+            // The map, centered at Uluru
+            var map = new google.maps.Map(
+                document.getElementById('map'), { zoom: 14, center: uluru });
+            // The marker, positioned at Uluru
+            var marker = new google.maps.Marker({ position: uluru, map: map });
+        }
+    </script>
+    
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcsazqpmKv-GX2GtKnwo2xAhbDkSKWoEw&callback=initMap">
 </script>
 
-<script>
-    function initMap() {
-        var superior = {lat: 40.39805, lng: -73.815153};
-        var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 20,
-            center: superior
-        });
-        var marker = new google.maps.Marker({
-            position: superior,
-            map: map
-        });
-    }
-</script>
+    
+
+
     
 
     <script type='text/javascript' src='js/jquery.js'></script>
