@@ -94,7 +94,7 @@
                     </div>
                     <!-- .breadcrumbs -->
                     <p>Feel free to contact us here at Superior Pharmacy anytime during business hours. We are open later than
-                        many other pharmacies for your convince and provide free parking. </p>
+                        many other pharmacies for your convince. </p>
 
                 </div>
             </div>
@@ -107,7 +107,7 @@
     <div class="contact-page-short-boxes">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-12 col-lg-4">
                     <div class="contact-info h-100">
                         <h2 class="d-flex align-items-center">Contact Info</h2>
 
@@ -121,34 +121,30 @@
                                 <li>
                                     <span>Phone:</span>+1 718-445-8450</li>
                                 <li>
-                                    <span>Email:</span>info@superiordrugmartpharmacy.com</li>
+                                    <span>Email:</span>info@superiordrugmart.com</li>
                             </ul>
                         </ul>
                     </div>
                 </div>
 
-                <div class="col-12 col-md-4 mt-5 mt-lg-0">
+                <div class="col-12 col-md-12 col-lg-4 mt-5 mt-lg-0">
                     <div class="opening__hours h-100">
                         <h2 class="d-flex align-items-center">Opening Hours</h2>
 
                         <ul class="p-0 m-0">
-                            <li>Monday - Thursday
-                                <span>9:00 - 5:00</span>
+                            <li>Monday - Friday
+                                <span>9:00am  - 5:00pm</span>
                             </li>
-                            <li>Friday
-                                <span>9:00 - 5:00</span>
-                            </li>
-                            <li>Saturday
+                           
+                            <li>Saturday - Sunday
                                 <span>Closed</span>
                             </li>
-                            <li>Sunday
-                                <span>Closed</span>
-                            </li>
+                           
                         </ul>
                     </div>
                 </div>
 
-                <div class="col-12 col-md-4 mt-5 mt-lg-0">
+                <div class="col-12 col-md-12 col-lg-4 mt-5  mt-lg-0">
                     <div class="emergency__box h-100">
                         <h2 class="d-flex align-items-center">Consultations</h2>
 
@@ -203,6 +199,7 @@
         </form>
     </div>
     <!-- contact-form -->
+   
 
     <div class="container">
         <div class="row">
@@ -210,7 +207,7 @@
                 <div class="contact-page-map">
                     <div id="map"></div>
                 </div>
-                <!-- map -->
+               
             </div>
         </div>
     </div>
@@ -283,23 +280,27 @@
             </div>
         </div>
     </footer>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDu9N6yN1ulOPh9O3VL5pz5bgTRWPDqNQ">
+  
+    <script>
+        // Initialize and add the map
+        function initMap() {
+            // The location of Uluru
+            var uluru = { lat: 40.740041, lng: -73.815294 };
+            // The map, centered at Uluru
+            var map = new google.maps.Map(
+                document.getElementById('map'), { zoom: 14, center: uluru });
+            // The marker, positioned at Uluru
+            var marker = new google.maps.Marker({ position: uluru, map: map });
+        }
+    </script>
+    
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcsazqpmKv-GX2GtKnwo2xAhbDkSKWoEw&callback=initMap">
 </script>
 
-<script>
-    function initMap() {
-        var superior = {lat: 40.39805, lng: -73.815153};
-        var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 20,
-            center: superior
-        });
-        var marker = new google.maps.Marker({
-            position: superior,
-            map: map
-        });
-    }
-</script>
+    
+
+
     
 
     <script type='text/javascript' src='js/jquery.js'></script>

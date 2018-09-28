@@ -1,5 +1,5 @@
 <?php
-$destino = "info@qubitmarketing.com";
+$destino = "info@superiordrugmart.com";
 $service = $_POST["service"];
 $name = $_POST["name"];
 $mail = $_POST["email"];
