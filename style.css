@@ -16,6 +16,7 @@ img {
 --------------------------------------------------------------*/
 a {
     color: #262626;
+    text-decoration: none !important;
 }
 
 a:visited {
@@ -49,6 +50,7 @@ a:hover, a:active {
     z-index: 9999;
     width: 100%;
     padding: 20px 0;
+    background-color: #fff;
 }
 
 /*
@@ -160,10 +162,11 @@ a:hover, a:active {
     font-size: 16px;
     font-weight: 600;
     line-height: 1;
-    color: #ffffff;
+    color: #313131;
     text-decoration: none;
     transition: color .35s;
 }
+
 
 /* Logo */
 
@@ -248,10 +251,10 @@ a:hover, a:active {
 }
 
 .drg__content-overlay p {
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 500;
     line-height: 2;
-    color: #828282;
+    color: #171717;
 }
 
 .drg__slider .drg__pagination__wrap {
@@ -761,9 +764,9 @@ ul.tabs-nav .tab-nav.active {
 .emergency__box p {
     margin-top: 16px;
     margin-bottom: 0;
-    font-size: 13px;
-    font-style: italic;
-    color: #828282;
+    font-size: 16px;
+    font-weight: 400;
+    color: #404040;
 }
 
 .emergency__box .call-btn {
@@ -916,6 +919,7 @@ ul.tabs-nav .tab-nav.active {
     height: 100%;
     background: url("images/testimonial-bg.jpg") no-repeat right center;
     background-size: cover;
+    background-position: 20px;
 }
 
 .testimonial__slider {
@@ -1135,7 +1139,7 @@ ul.tabs-nav .tab-nav.active {
 
 .single-page .header .header-img {
     position: absolute;
-    top: 0;
+    top: 15%;
     right: 0;
     max-width: 65%;
     height: auto;
@@ -1298,7 +1302,7 @@ ul.tabs-nav .tab-nav.active {
 # Services
 --------------------------------------------------------------*/
 .quality-services {
-    padding: 100px 0;
+    padding: 100px 0 0 0;
 }
 
 .quality-services h2 {
@@ -1312,7 +1316,7 @@ ul.tabs-nav .tab-nav.active {
 }
 
 .services-tabs {
-    margin: 100px 0;
+    margin: 10px 0;
 }
 
 /*--------------------------------------------------------------
@@ -1689,6 +1693,13 @@ ul.tabs-nav .tab-nav.active {
     }
     ul.tabs-nav .tab-nav {
         width: 100%;
+    }
+    .single-page .header .header-img{
+        display: none;
+    }
+    
+    .single-page .header {
+        padding: 220px 0 70px;
     }
 
 }

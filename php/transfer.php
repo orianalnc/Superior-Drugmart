@@ -1,5 +1,5 @@
 <?php
-$destino = "info@superiordrugmart.com";
+$destino = "superiordrugmart@gmail.com";
 
 $firs = $_POST["firs-name"];
 $last = $_POST["last-name"];
@@ -17,6 +17,6 @@ $terms = $_POST["terms"];
 $content = "Firs Name: " . $firs . "\nLast Name: " . $last . "\nEmail: " . $mail . "\nPhone: " . $phone . "\nPharmacy Name: " . $pharmaname . "\nPharmacy Phone: " . $pharmaphone . "\nRx Number: " . $rx . "\nDr Name: " . $drname . "\nDr Phone: " . $drphone . "\nMedication: " . $medication . "\nTerms: " . $terms;
 
 mail($destino,"Transfer Prescriptions - Superior Drugmart  Pharmacy", $content);
-header("Location:index.html");
+header("Location:../index.html");
 
 ?>
